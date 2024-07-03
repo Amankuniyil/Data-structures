@@ -11,5 +11,4 @@ def BubbleSort(list):
     return list
 
 list=[5,8,2,9,1,6]
-
 print(BubbleSort(list))
