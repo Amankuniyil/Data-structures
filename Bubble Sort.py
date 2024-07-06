@@ -2,6 +2,10 @@ def BubbleSort(list):
 
     n=len(list)
 
+
+
+    
+
     for i in range(n-1,0,-1):
         for j in range(i):
             if list[j]> list[j+1]:
