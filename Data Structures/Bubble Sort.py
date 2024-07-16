@@ -7,7 +7,10 @@ def BubbleSort(list):
             if list[j]> list[j+1]:
                 list[j],list[j+1]=list[j+1],list[j]
 
- 
+
+
+
+    
     return list
 
 list=[5,8,2,9,1,6]
