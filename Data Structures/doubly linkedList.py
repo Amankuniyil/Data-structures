@@ -4,9 +4,14 @@ class Node:
         self.prev = None
         self.next = None
 
+
+
 class DoublyLinkedList:
+
+
     def __init__(self):
         self.head = None
+
 
     def append(self, data):
         new_node = Node(data)
@@ -18,6 +23,8 @@ class DoublyLinkedList:
             last = last.next
         last.next = new_node
         new_node.prev = last
+
+
 
     def prepend(self, data):
         new_node = Node(data)
@@ -51,3 +58,4 @@ class DoublyLinkedList:
             elems.append(curr.data)
             curr = curr.next
         return elems
+

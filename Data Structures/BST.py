@@ -53,6 +53,9 @@ class BST:
     def delete(self, data):
         self.root = self._delete(self.root, data)
 
+
+
+
     def _delete(self, node, data):
         if not node:
             return node
