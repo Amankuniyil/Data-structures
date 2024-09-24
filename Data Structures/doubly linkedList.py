@@ -59,3 +59,11 @@ class DoublyLinkedList:
             curr = curr.next
         return elems
 
+dll = DoublyLinkedList()
+dll.append(1)
+dll.append(2)
+dll.prepend(0)
+print(dll.display())  
+ 
+dll.delete(1)
+print(dll.display()) 
